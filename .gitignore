@@ -1,0 +1,21 @@
+# Private runtime data and operational records
+/inputs/
+/raw_data/
+/outputs/
+/runtime/
+.env
+.env.*
+!.env.example
+# Local environments and generated files
+.venv/
+.validation/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.test-tmp/
+.demo-output/
+*.xlsm
+# Only examples/synthetic_inputs.json is intentionally distributed input data.

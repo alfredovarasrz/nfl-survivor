@@ -1,0 +1,9 @@
+# Tested Python 3.14 environment; exact runtime and test dependency pins.
+# Use: python -m pip install -r requirements.lock
+numpy==2.5.3
+scipy==1.18.1
+pytest==9.1.1
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
